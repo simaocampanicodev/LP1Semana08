@@ -1,3 +1,4 @@
+```mermaid
 Character <|-- Player
 Character <|-- Enemy
 Weapon <|-- Gun
@@ -34,3 +35,4 @@ Character o-- Weapon
         +Sword(float power, float length)
         +AttackWithSword()
     }
+```
