@@ -35,5 +35,5 @@ classDiagram
     Character <|-- Enemy
     Weapon <|-- Gun
     Weapon <|-- Sword
-    Character o-- Weapon
+    Character <|-- Weapon
 ```
