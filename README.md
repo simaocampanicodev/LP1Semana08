@@ -1,8 +1,7 @@
-classDiagram
-Character <-- Player
-Character <-- Enemy
-Weapon <-- Gun
-Weapon <-- Sword
+Character <|-- Player
+Character <|-- Enemy
+Weapon <|-- Gun
+Weapon <|-- Sword
 Character o-- Weapon
 
     class Character {
