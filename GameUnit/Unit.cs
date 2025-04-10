@@ -32,5 +32,10 @@ namespace GameUnit
                    tens[(number % 100) / 10] + 
                    ones[number % 10];
         }
+
+        public override string ToString()
+        {
+            return $"{GetType().Name}: HP={Health} COST={Cost:F2}";
+        }
     }
 }
