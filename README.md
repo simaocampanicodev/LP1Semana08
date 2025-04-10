@@ -1,10 +1,5 @@
 ```mermaid
-Character <|-- Player
-Character <|-- Enemy
-Weapon <|-- Gun
-Weapon <|-- Sword
-Character o-- Weapon
-
+classDiagram
     class Character {
         #Weapon[] weapons
         +string Name
@@ -35,4 +30,10 @@ Character o-- Weapon
         +Sword(float power, float length)
         +AttackWithSword()
     }
+    
+    Character <|-- Player
+    Character <|-- Enemy
+    Weapon <|-- Gun
+    Weapon <|-- Sword
+    Character o-- Weapon
 ```
